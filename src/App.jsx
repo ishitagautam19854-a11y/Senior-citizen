@@ -79,7 +79,7 @@ function App() {
   const [notifications, setNotifications] = useState(typeof Notification !== 'undefined' && Notification.permission === 'granted');
   const notifiedReminders = useRef(new Set());
 
-  
+
   const announce = (message) => {
     setToast(message);
     window.clearTimeout(announce.timer);
@@ -143,7 +143,7 @@ function App() {
   return (
     <div className="app-shell">
       <aside className={`sidebar ${menuOpen ? 'sidebar-open' : ''}`}>
-        <div className="brand"><div className="brand-mark"><Heart size={25} fill="currentColor" /></div><div><strong>EverAssist</strong><span>Your gentle companion</span></div></div>
+        <div className="brand"><div className="brand-mark"><Heart size={25} fill="currentColor" /></div><div><strong>Senior Assist</strong><span>Your gentle companion</span></div></div>
         <div className="side-label">YOUR SPACE</div>
         <nav aria-label="Main navigation">
           {navItems.map(({ id, label, icon: Icon }) => (
