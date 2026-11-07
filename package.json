@@ -1,5 +1,6 @@
 {
   "name": "everassist",
+  "homepage": "https://ishitagautam19854-a11y.github.io/Senior-citizen/",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -8,14 +9,14 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist" 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
+    "gh-pages": "^6.3.0",
+    "lucide-react": "^0.468.0",
     "react": "latest",
     "react-dom": "latest",
-    "lucide-react": "^0.468.0"
-  },
-  "devDependencies": {}
+    "vite": "latest"
+  }
 }
