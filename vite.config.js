@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: '/Senior-Citizen/', // 👈 Make sure to include both slashes!
-})
+  base: mode === 'github-pages' ? '/Senior-Citizen/' : '/',
+}))
