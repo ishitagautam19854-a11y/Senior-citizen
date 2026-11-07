@@ -79,10 +79,6 @@ function App() {
   const [notifications, setNotifications] = useState(typeof Notification !== 'undefined' && Notification.permission === 'granted');
   const notifiedReminders = useRef(new Set());
 
-  TextTrackCue
-
-
-
   const announce = (message) => {
     setToast(message);
     window.clearTimeout(announce.timer);
