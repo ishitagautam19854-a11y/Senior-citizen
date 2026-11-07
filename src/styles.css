@@ -1,7 +1,7 @@
 :root {
   font-family: 'Segoe UI', Arial, sans-serif;
   color: #293d37;
-  background: #f7f6f1;
+  background: #fbf3df;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -10,7 +10,7 @@
   --green: #537865;
   --green-dark: #3d6652;
   --sage: #e8eee6;
-  --cream: #f7f6f1;
+  --cream: #fbf3df;
   --line: #e7e8e1;
   --blue: #e8f0f3;
   --peach: #f5ebe1;
